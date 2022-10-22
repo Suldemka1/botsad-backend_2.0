@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "excursions",
+  "info": {
+    "singularName": "excursion",
+    "pluralName": "excursions",
+    "displayName": "Экскурсии",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

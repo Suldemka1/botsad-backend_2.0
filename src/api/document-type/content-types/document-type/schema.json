@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "document_types",
+  "info": {
+    "singularName": "document-type",
+    "pluralName": "document-types",
+    "displayName": "Типы документов",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::document.document",
+      "mappedBy": "document_types"
+    }
+  }
+}

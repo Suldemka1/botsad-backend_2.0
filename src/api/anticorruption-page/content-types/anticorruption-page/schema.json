@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "anticorruption_pages",
+  "info": {
+    "singularName": "anticorruption-page",
+    "pluralName": "anticorruption-pages",
+    "displayName": "Антикоррупционная деятельность",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

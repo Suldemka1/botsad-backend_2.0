@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "informacziya_ob_organizacziis",
+  "info": {
+    "singularName": "informacziya-ob-organizaczii",
+    "pluralName": "informacziya-ob-organizacziis",
+    "displayName": "Информация об организации",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "minfullname": {
+      "type": "string",
+      "required": true,
+      "default": "Полное наименование организации",
+      "maxLength": 60
+    },
+    "min_compressed_name": {
+      "type": "string",
+      "default": "Сокрназвание",
+      "required": true,
+      "maxLength": 20
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "main_document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

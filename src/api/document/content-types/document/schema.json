@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents",
+  "info": {
+    "singularName": "document",
+    "pluralName": "documents",
+    "displayName": "Документы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ],
+      "pluginOptions": {}
+    },
+    "document_types": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::document-type.document-type",
+      "inversedBy": "documents"
+    },
+    "signing_date": {
+      "type": "date"
+    }
+  }
+}

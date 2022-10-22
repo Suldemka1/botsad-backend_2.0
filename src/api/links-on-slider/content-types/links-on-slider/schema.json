@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links_on_sliders",
+  "info": {
+    "singularName": "links-on-slider",
+    "pluralName": "links-on-sliders",
+    "displayName": "Ссылки у слайдера",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

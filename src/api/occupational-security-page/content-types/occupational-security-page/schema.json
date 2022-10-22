@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "occupational_security_pages",
+  "info": {
+    "singularName": "occupational-security-page",
+    "pluralName": "occupational-security-pages",
+    "displayName": "Охрана труда",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

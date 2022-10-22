@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links_on_mains",
+  "info": {
+    "singularName": "links-on-main",
+    "pluralName": "links-on-mains",
+    "displayName": "Ссылки на главной странице",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

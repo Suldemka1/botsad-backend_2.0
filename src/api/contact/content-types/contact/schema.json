@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Контакты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "min_full_name": {
+      "type": "string"
+    },
+    "min_compressed_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}
